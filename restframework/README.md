@@ -1,4 +1,4 @@
-# Django REST Framework API
+<!-- # Django REST Framework API
 
 A backend API project built using **Django** and **Django REST Framework (DRF)**. This project serves as a foundation for scalable and secure API development, incorporating modern practices such as JWT authentication, modular apps, and a clean project structure.
 
@@ -41,4 +41,4 @@ This project is licensed under the MIT License.
 
 ## ✍️ Author
 Bryan Sine
-GitHub: @bryansine
+GitHub: @bryansine -->
