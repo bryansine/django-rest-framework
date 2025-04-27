@@ -3,7 +3,6 @@
 # from rest_framework import routers
 # from drf.views import ItemViewSet
 
-# router = routers.DefaultRouter()
 # router.register(r'api/items', ItemViewSet, basename='item')
 # urlpatterns = [
 # ]
