@@ -16,7 +16,6 @@
 # from drf.views import ItemViewSet
 
 # router = routers.DefaultRouter()
-# router.register(r'items', ItemViewSet)
 # urlpatterns = [
 #     path('', include(router.urls)),
 # ]
