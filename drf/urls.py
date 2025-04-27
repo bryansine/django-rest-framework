@@ -17,7 +17,6 @@
 
 # router = routers.DefaultRouter()
 # urlpatterns = [
-#     path('', include(router.urls)),
 # ]
 
 from django.contrib import admin
