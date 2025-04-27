@@ -7,7 +7,6 @@
 # router.register(r'api/items', ItemViewSet, basename='item')
 # urlpatterns = [
 #     path('admin/', admin.site.urls),
-#     path('', include(router.urls)),
 # ]
 
 from django.contrib import admin
