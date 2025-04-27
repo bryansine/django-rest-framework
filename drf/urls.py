@@ -10,7 +10,6 @@
 #     path('', include(router.urls)),
 # ]
 
-# from django.contrib import admin
 
 # urlpatterns = [
 
