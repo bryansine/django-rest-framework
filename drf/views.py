@@ -8,3 +8,4 @@ class ItemViewSet(viewsets.ModelViewSet):
     queryset = Item.objects.all()
     serializer_class = ItemSerializer
     permission_classes = [AllowAny, IsAuthenticated, IsAdminOrReadOnly]
+    #permission_classes = [AllowAny, IsAuthenticated, IsAdminOrReadOnly]
