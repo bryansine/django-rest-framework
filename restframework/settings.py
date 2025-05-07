@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    # 'rest_framework.authtoken',
+    'rest_framework.authtoken',
     'drf',
     'knox',
 ]
@@ -139,6 +139,6 @@ REST_FRAMEWORK = {
 
 # Knox settings
 REST_KNOX = {
-    'TOKEN_TTL': timedelta(minutes=1),
-    'AUTO_REFRESH': False,
+    'TOKEN_TTL': timedelta(hours=2),
+    'AUTO_REFRESH': True,
 }
