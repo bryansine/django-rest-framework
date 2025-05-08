@@ -9,6 +9,6 @@ router.register(r'items', ItemViewSet, basename='item')
 
 urlpatterns = [
     path('', include(router.urls)),
-    #path('token-auth/', obtain_auth_token, name='api_token_auth'),
+    path('token-auth/', obtain_auth_token, name='api_token_auth'),
     path('auth/login/', KnoxLoginView.as_view(), name='knox_login'),
 ]
