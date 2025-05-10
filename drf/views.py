@@ -8,7 +8,9 @@ from django.contrib.auth.models import User
 from rest_framework.response import Response
 from rest_framework import viewsets, serializers
 from rest_framework.authtoken.serializers import AuthTokenSerializer
+# from rest_framework.permissions import IsAuthenticated, AllowAny, DjangoModelPermissions
 from rest_framework.permissions import IsAuthenticated, AllowAny, DjangoModelPermissions
+
 
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
