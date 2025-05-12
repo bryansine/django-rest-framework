@@ -139,6 +139,6 @@ REST_FRAMEWORK = {
 
 # Knox settings
 REST_KNOX = {
-    'TOKEN_TTL': timedelta(hours=2),
+    'TOKEN_TTL': timedelta(days=2),
     'AUTO_REFRESH': True,
 }
