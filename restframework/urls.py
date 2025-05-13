@@ -22,7 +22,6 @@ Including another URLconf
 
 # urlpatterns = [
 #     path('admin/', admin.site.urls),
-#     path('api/', include('drf.urls')),
 #     path('api/token-auth/', obtain_auth_token, name='api_token_auth'),
 # ]
 
@@ -35,5 +34,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('drf.urls')),
     path('api/auth/', include('knox.urls')),
+    path('o/', include('oauth2_provider.urls', namespace='oauth2_provider')),
     #path('api/token-auth/', obtain_auth_token, name='api_token_auth'),
 ]

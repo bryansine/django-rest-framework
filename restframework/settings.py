@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'rest_framework.authtoken',
+    'oauth2_provider', 
     'drf',
     'knox',
 ]
@@ -131,6 +132,7 @@ REST_FRAMEWORK = {
         'knox.auth.TokenAuthentication',
         'rest_framework.authentication.TokenAuthentication',
         'rest_framework.authentication.SessionAuthentication',
+        'oauth2_provider.contrib.rest_framework.OAuth2Authentication',
     ],
     'DEFAULT_PERMISSION_CLASSES': [
         'rest_framework.permissions.IsAuthenticated',
@@ -141,4 +143,9 @@ REST_FRAMEWORK = {
 REST_KNOX = {
     'TOKEN_TTL': timedelta(days=2),
     'AUTO_REFRESH': True,
+}
+
+# OAuth2 settings
+OAUTH2_PROVIDER = {
+    'ACCESS_TOKEN_EXPIRE_SECONDS': 3600,
 }
