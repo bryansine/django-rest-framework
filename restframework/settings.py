@@ -13,7 +13,7 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 from pathlib import Path
 from datetime import timedelta
 
-# Build paths inside the  
+# Build paths inside   
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
