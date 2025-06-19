@@ -100,7 +100,7 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 
-# https://docs.djangoproject.com/en/5.2/topics/
+# https://docs.djangoproject.com/en/5.2/topics/11ps/
 
 LANGUAGE_CODE = 'en-us'
 
