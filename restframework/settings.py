@@ -112,6 +112,7 @@ USE_TZ = True
 
 
 
+# https://docs.djangoproject.com/en/5.2/
 
 # https://docs.djangoproject.com/en/5.2/
 
