@@ -113,7 +113,6 @@ USE_TZ = True
 
 
 
-# Static files (CSS, JavaScript)
 # https://docs.djangoproject.com/en/5.2/
 
 STATIC_URL = 'static/'
