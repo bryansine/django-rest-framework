@@ -117,7 +117,6 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
-# Default primary key field type
 # https://docs.djangoproject.com/en//ref/settings/#default-auto-field field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
