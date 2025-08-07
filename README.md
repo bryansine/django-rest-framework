@@ -5,7 +5,7 @@ A backend API project built using **Django** and **Django REST Framework (DRF)**
 ## 🚀 Features
 
 - 🔐 Token-based authentication with JWT (via `SimpleJWT`)
-- ✅ User registration and login APIs
+- ✅ User registration and login APIs.
 - 📦 Modular app structure for scalability
 - 🔍 Built-in pagination, filtering, and ordering
 - 🧪 Automated testing (optional setup)
