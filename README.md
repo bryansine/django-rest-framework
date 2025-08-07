@@ -9,7 +9,7 @@ A backend API project built using **Django** and **Django REST Framework (DRF)**
 - 📦 Modular app structure for scalability
 - 🔍 Built-in pagination, filtering, and ordering
 - 🧪 Automated testing (optional setup).
-- 📚 Swagger or Redoc auto-generated documentation (optional)
+- 📚 Swagger or Redoc auto-generated documentation (optional).
 - 💾 PostgreSQL/SQLite support
 
 ## ⚙️ Setup Instructions
