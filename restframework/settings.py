@@ -110,6 +110,7 @@ USE_I18N = True
 
 USE_TZ = True
 
+# USE_TZ = True
 
 
 # https://docs.djangoproject.com/en/5.2/
