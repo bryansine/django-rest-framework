@@ -1,6 +1,5 @@
 from rest_framework import routers
 from django.urls import path, include
-#from django.urls import path, include
 from .views import ItemViewSet, KnoxLoginView
 from rest_framework.routers import DefaultRouter
 from rest_framework.authtoken.views import obtain_auth_token
