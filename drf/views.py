@@ -38,3 +38,5 @@ class ItemViewSet(viewsets.ModelViewSet):
     serializer_class = ItemSerializer
     permission_classes = [DjangoModelPermissions]
     # permission_classes = [AllowAny, IsAuthenticated, IsAdminOrReadOnly, IsAdminUser, IsAuthenticatedOrReadOnly]
+    
+    # permission_classes = [isAuthenticated, isAdminOrReeadOnly, isAuthenticatedOrReadOnly, isAdminUser, AlowAny]
