@@ -23,5 +23,4 @@ urlpatterns = [
     path('api/', include('drf.urls')),
     path('api/auth/', include('knox.urls')),
     path('o/', include('oauth2_provider.urls', namespace='oauth2_provider')),
-        # path('o/', include('oauth2_provider.urls', namespace='oauth2_provider')),
 ]
