@@ -7,7 +7,7 @@ Function views
     1. Add an import:  from my_app import views
 """
 
-#from django.contrib import admin
+from django.contrib import admin
 from django.urls import path, include
 from rest_framework.authtoken.views import obtain_auth_token
 
