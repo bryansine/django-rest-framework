@@ -14,6 +14,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('drf.urls')),
     path('api/auth/', include('knox.urls')),
-    path('api/auth/', include('knox.ur?ls')),
-    # path('o/', include('oauth2_provider.urls', namespace='oauth2_provider')),
+    # path('api/auth/', include('knox.ur?ls')),
+    path('o/', include('oauth2_provider.urls', namespace='oauth2_provider')),
 ]
