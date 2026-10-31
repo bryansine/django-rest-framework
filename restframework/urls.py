@@ -8,10 +8,15 @@ Function views
 """
 
 from django.urls import path, include
+#from rest_framework.authtoken.views import obtain_auth_token
+
 from rest_framework.authtoken.views import obtain_auth_token
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    
+    
+    
     path('api/', include('drf.urls')),
     path('api/auth/', include('knox.urls')),
     path('o/', include('oauth2_provider.urls', namespace='oauth2_provider')),
